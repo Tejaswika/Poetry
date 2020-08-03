@@ -1,0 +1,192 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.leftRow {
+  min-height: 150vh;
+  position: fixed;
+  overflow-x: hidden;
+  background: #f9705b;
+}
+input[type="text"] {
+  font-size: 17px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  background: transparent;
+  color: white;
+}
+.searchIcon {
+  position: relative;
+}
+.heading {
+  background: #ff8a77;
+  height: 35%;
+  color: white;
+  position: relative;
+  z-index: 2;
+  box-shadow: 5px 10px 20px black;
+}
+.headingLabel {
+  font-size: 250%;
+}
+.imgMobile,
+.mobilePlayer,
+.imgHide,
+.playIconHide,
+.songDisHide {
+  display: none;
+}
+.rightRow {
+  background: #ff8a77;
+  min-height: 150vh;
+  position: fixed;
+  overflow-x: hidden;
+  top: -150vh;
+  bottom: 0;
+  left: 15%;
+  padding: 2%;
+}
+.img {
+  opacity: 0.5;
+  margin: 5%;
+  box-shadow: 5px 10px 10px black;
+}
+.scrollBar {
+  width: 60%;
+}
+.range {
+  position: relative;
+  top: -6%;
+  left: 10%;
+}
+.playIcon {
+  color: white;
+  font-size: 300%;
+  position: relative;
+  left: 35%;
+  top: -5%;
+  padding: 2%;
+}
+.upNext {
+  color: white;
+  position: relative;
+  top: -5%;
+}
+.songMore {
+  background: #f9705b;
+  padding: 2%;
+  position: relative;
+  top: -5vh;
+  margin-bottom: 5%;
+  box-shadow: 5px 10px 10px black;
+}
+.songDis {
+  color: white;
+}
+
+main {
+  position: fixed;
+  top: -95vh;
+  left: 8%;
+  background-color: #fff9fd;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.images {
+  position: relative;
+  display: flex;
+  margin: 2%;
+}
+
+#images-conatiner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.images {
+  height: auto;
+  width: 83%;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  height: 100px;
+  width: 100px;
+}
+
+.column img {
+  height: 150%;
+  width: 100%;
+  box-shadow: 5px 10px 10px black;
+}
+#popular-artist {
+  position: relative;
+  top: 10vh;
+}
+.btm {
+  position: relative;
+  top: 15vh;
+}
+.artist-container .single img {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 90%;
+  border-radius: 50%;
+  height: 10%;
+}
+.song {
+  background: #f9705b;
+  margin-right: 2%;
+  min-width: 30%;
+  box-shadow: 5px 10px 10px black;
+}
+@media (max-width: 992px) {
+  .leftRow,
+  .rightRow,
+  .headingImg,
+  .hide,
+  .navbar,
+  .navbar a {
+    display: none;
+  }
+  .heading {
+    font-size: 100%;
+    text-align: left;
+    min-height: 100%;
+  }
+  .imgMobile {
+    display: block;
+    opacity: 0.2;
+  }
+  main {
+    position: relative;
+    top: 5vh;
+    left: 0;
+  }
+  .mobilePlayer,
+  .imgHide,
+  .playIconHide,
+  .songDisHide {
+    display: inline-block;
+  }
+
+  .mobilePlayer {
+    background: #ff8a77;
+    position: relative;
+    top: 30vh;
+  }
+}
