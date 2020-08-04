@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ImgOne from "./img/Kumar-vishvas_5e47a2af768b0.jpg";
-import ImgTwo from "./img/maxresdefault (5).jpg";
-import ImgThree from "./img/1534701274article_img.jpg";
-import ImgFour from "./img/1895301.webp";
-import ImgFive from "./img/love-poem.jpg";
+import ImgOne from "../../assets/Poetry/Kumar-vishvas_5e47a2af768b0.jpg";
+import ImgTwo from "../../assets/Poetry/maxresdefault (5).jpg";
+import ImgThree from "../../assets/Poetry/1534701274article_img.jpg";
+import ImgFour from "../../assets/Poetry/1895301.webp";
+import ImgFive from "../../assets/Poetry/love-poem.jpg";
 
 class Heading extends Component {
   render() {

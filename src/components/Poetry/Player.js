@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Img from "./img/maxresdefault (3).jpg";
+import Img from "../../assets/Poetry/maxresdefault (3).jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCaretLeft,

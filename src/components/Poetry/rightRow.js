@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ImgOne from "./img/maxresdefault (3).jpg";
-import ImgTwo from "./img/MV5BMWRiZDY5MDQtMDkxMi00N2I1LWIwNzQtM2VmYWFkMGE0YWFkXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SY1000_CR0,0,669,1000_AL_.jpg";
-import ImgThree from "./img/helly-shah-(storyteller)-1268909-13-06-2019-07-55-02.jpg";
-import ImgFour from "./img/love-poem.jpg";
+import ImgOne from "../../assets/Poetry/maxresdefault (3).jpg";
+import ImgTwo from "../../assets/Poetry/MV5BMWRiZDY5MDQtMDkxMi00N2I1LWIwNzQtM2VmYWFkMGE0YWFkXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SY1000_CR0,0,669,1000_AL_.jpg";
+import ImgThree from "../../assets/Poetry/helly-shah-(storyteller)-1268909-13-06-2019-07-55-02.jpg";
+import ImgFour from "../../assets/Poetry/love-poem.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCaretLeft,

@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Trees from "./img/trees.png";
-import If from "./img/if.jpg";
-import You from "./img/you.jpg";
-import The from "./img/the.jpg";
-import Aone from "./img/a1.jpg";
-import Atwo from "./img/a2.jpg";
-import Athree from "./img/a3.jpg";
-import Afour from "./img/a4.jpg";
-import Afive from "./img/a5.jpg";
-import Poem from "./img/MV5BMWRiZDY5MDQtMDkxMi00N2I1LWIwNzQtM2VmYWFkMGE0YWFkXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SY1000_CR0,0,669,1000_AL_.jpg";
+import Trees from "../../assets/Poetry/trees.png";
+import If from "../../assets/Poetry/if.jpg";
+import You from "../../assets/Poetry/you.jpg";
+import The from "../../assets/Poetry/the.jpg";
+import Aone from "../../assets/Poetry/a1.jpg";
+import Atwo from "../../assets/Poetry/a2.jpg";
+import Athree from "../../assets/Poetry/a3.jpg";
+import Afour from "../../assets/Poetry/a4.jpg";
+import Afive from "../../assets/Poetry/a5.jpg";
+import Poem from "../../assets/Poetry/MV5BMWRiZDY5MDQtMDkxMi00N2I1LWIwNzQtM2VmYWFkMGE0YWFkXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_SY1000_CR0,0,669,1000_AL_.jpg";
 
 class Main extends Component {
   render() {
